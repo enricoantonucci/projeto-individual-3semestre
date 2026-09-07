@@ -1,0 +1,57 @@
+.card {
+	background: white;
+	padding: 24px;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px #00000012;
+	margin-bottom: 25px;
+}
+
+.formulario {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+}
+
+.campo {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.campo input,
+.campo select {
+	padding: 10px;
+	border: 1px solid #bbb;
+	border-radius: 6px;
+}
+
+.botao {
+	margin-top: 20px;
+	padding: 11px 18px;
+	border: 0;
+	border-radius: 6px;
+	background: #222;
+	color: white;
+	cursor: pointer;
+}
+
+.botao:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.sucesso {
+	color: #187a31;
+	font-weight: bold;
+}
+
+.erro {
+	color: #b3261e;
+	font-weight: bold;
+}
+
+@media (max-width: 650px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+}
