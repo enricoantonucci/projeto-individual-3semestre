@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import FormularioEvento from './componentes/FormularioEvento'
-import ListaEventos from './componentes/ListaEventos'
-import styles from './App.module.css'
+import { useState } from 'react';
+import FormularioEvento from './componentes/FormularioEvento';
+import ListaEventos from './componentes/ListaEventos';
+import styles from './App.module.css';
 
 function App() {
-  const [atualizarLista, setAtualizarLista] = useState(0)
+  const [atualizarLista, setAtualizarLista] = useState(0);
 
   function eventoCadastrado() {
-    setAtualizarLista(atualizarLista + 1)
+    setAtualizarLista(atualizarLista + 1);
   }
 
   return (
@@ -16,9 +16,11 @@ function App() {
         <h1>Sistema de Eventos</h1>
         <p>Cadastre e visualize os eventos.</p>
       </header>
+
       <FormularioEvento aoCadastrar={eventoCadastrado} />
       <ListaEventos atualizarLista={atualizarLista} />
     </main>
-  )
+  );
 }
-export default App
+
+export default App;

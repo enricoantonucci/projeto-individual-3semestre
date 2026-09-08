@@ -1,7 +1,7 @@
 package br.com.sptech.eventos.controller;
 
-import br.com.sptech.eventos.model.Evento;
-import br.com.sptech.eventos.repository.EventoRepository;
+import java.util.List;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import br.com.sptech.eventos.model.Evento;
+import br.com.sptech.eventos.repository.EventoRepository;
 
 @CrossOrigin(origins = "http://localhost:5173")
 @RestController
@@ -30,50 +31,40 @@ public class EventoController {
     }
 
     @PostMapping
-    public ResponseEntity<?> cadastrar(@RequestBody Evento evento) {
-        String erro = validar(evento);
+    public ResponseEntity<?> cadastrar(@RequestBody Evento e) {
+        String erro = validar(e);
 
         if (erro != null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(erro);
         }
 
-        repository.cadastrar(evento);
-        return ResponseEntity.status(HttpStatus.CREATED).body(evento);
+        repository.cadastrar(e);
+        return ResponseEntity.status(HttpStatus.CREATED).body(e);
     }
 
-    private String validar(Evento evento) {
-        if (evento == null) {
+    private String validar(Evento e) {
+        if (e == null) {
             return "Evento inválido.";
         }
-
-        if (vazio(evento.getNome())) {
+        if (vazio(e.getNome())) {
             return "O nome é obrigatório.";
         }
-
-        if (evento.getData() == null) {
-            return "A data é obrigatória.";
-        }
-
-        if (vazio(evento.getLocal())) {
+        if (vazio(e.getLocal())) {
             return "O local é obrigatório.";
         }
-
-        if (vazio(evento.getResponsavel())) {
+        if (vazio(e.getResponsavel())) {
             return "O responsável é obrigatório.";
         }
-
-        if (vazio(evento.getTipo())) {
+        if (vazio(e.getTipo())) {
             return "O tipo é obrigatório.";
         }
-
-        if (!"ATIVO".equals(evento.getSituacao()) && !"INATIVO".equals(evento.getSituacao())) {
+        if (!"ATIVO".equals(e.getSituacao()) && !"INATIVO".equals(e.getSituacao())) {
             return "A situação deve ser ATIVO ou INATIVO.";
         }
-
         return null;
     }
 
-    private boolean vazio(String valor) {
-        return valor == null || valor.isBlank();
+    private boolean vazio(String s) {
+        return s == null || s.isBlank();
     }
 }

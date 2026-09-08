@@ -1,12 +1,9 @@
 package br.com.sptech.eventos.model;
 
-import java.time.LocalDate;
-
 public class Evento {
 
     private Integer id;
     private String nome;
-    private LocalDate data;
     private String local;
     private String responsavel;
     private String tipo;
@@ -15,11 +12,9 @@ public class Evento {
     public Evento() {
     }
 
-    public Evento(Integer id, String nome, LocalDate data, String local,
-                  String responsavel, String tipo, String situacao) {
+    public Evento(Integer id, String nome, String local, String responsavel, String tipo, String situacao) {
         this.id = id;
         this.nome = nome;
-        this.data = data;
         this.local = local;
         this.responsavel = responsavel;
         this.tipo = tipo;
@@ -40,14 +35,6 @@ public class Evento {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public LocalDate getData() {
-        return data;
-    }
-
-    public void setData(LocalDate data) {
-        this.data = data;
     }
 
     public String getLocal() {

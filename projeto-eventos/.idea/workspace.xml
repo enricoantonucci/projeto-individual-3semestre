@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d62b1f28-351b-4e9d-8786-ad87adf61d2b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projeto-eventos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/ApiEventosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/ApiEventosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/controller/EventoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/controller/EventoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/model/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/model/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/repository/EventoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/br/com/sptech/eventos/repository/EventoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/componentes/FormularioEvento.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/componentes/FormularioEvento.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/componentes/FormularioEvento.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/componentes/FormularioEvento.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/componentes/ListaEventos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/componentes/ListaEventos.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/componentes/ListaEventos.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/componentes/ListaEventos.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3J1U3MeUZ1KeRvJgEpkiDknBnxi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d62b1f28-351b-4e9d-8786-ad87adf61d2b" name="Changes" comment="" />
+      <created>1788827869063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788827869063</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
